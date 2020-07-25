@@ -1,0 +1,98 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url("things/blanco.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stylecrud {
+    width: 340px;
+    height: 508px;
+    background: #ff6a00;
+    color: #fff;
+    top: 50%;
+    left: 26%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+    .stylecrud input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+        border-left-style: none;
+        border-left-color: inherit;
+        border-left-width: medium;
+        border-right-style: none;
+        border-right-color: inherit;
+        border-right-width: medium;
+        border-top-style: none;
+        border-top-color: inherit;
+        border-top-width: medium;
+    }
+
+.stylecrudinput[type="Add"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.stylecrud input[type="Add"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: black;
+}
+
+.stylecrud a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
+    .stylecrud a:hover {
+        color: #ffc107;
+    }
+
+
+.menus {
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+    text-align: left;
+    height: 50px;
+    width: 636px;
+}
+
+    .menus input input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+    .menus input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: black;
+    }

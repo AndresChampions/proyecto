@@ -1,0 +1,455 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url("things/blanco.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style {
+    width: 320px;
+    height: 672px;
+    background: #ff6a00;
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+    .style input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .style input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .style input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+
+    .style a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+
+
+
+        .style a:hover {
+            color: #ffc107;
+        }
+
+
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+.style2 {
+    width: 320px;
+    height: 1093px;
+    background: #ff6a00;
+    color: #fff;
+    top: 91%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 27px;
+}
+
+
+    .style2 input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .style2 input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .style2 input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+
+    .style2 a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+        .style2 a:hover {
+            color: #ffc107;
+        }
+
+
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.style3 {
+    width: 382px;
+    height: 661px;
+    background: #ff6a00;
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+    .style3 input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .style3 input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: #fb2525;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .style3 input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+
+    .style3 a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+        .style3 a:hover {
+            color: #ffc107;
+        }
+
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.stylerest {
+    width: 382px;
+    height: 661px;
+    background: #0000FF;
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+    .stylerest input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .stylerest input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: rgba(21, 232, 225, 0.97);
+        color: black;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .stylerest input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+
+    .stylerest a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+        .stylerest a:hover {
+            color: #ffc107;
+        }
+
+
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.stylerestING {
+    width: 382px;
+    height: 1076px;
+    background: #0000FF;
+    color: #fff;
+    top: 94%;
+    left: 48%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+    .stylerestING input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .stylerestING input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: rgba(21, 232, 225, 0.97);
+        color: black;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .stylerestING input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+
+    .stylerestING a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+        .stylerestING a:hover {
+            color: #ffc107;
+        }
+
+
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+  /*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.styledeli {
+    width: 320px;
+    height: 656px;
+    background: #808080;
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+.styledeli input[type="text"], input[type="password"] {
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+.styledeli input[type="submit"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    background: #fff;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    .styledeli input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: black;
+    }
+
+    .styledeli a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+.styledeli a:hover {
+    color: #ffc107;
+}
+
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*      ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.styledeliING {
+    width: 331px;
+    height: 1069px;
+    background: #808080;
+    color: #fff;
+    top: 93%;
+    left: 48%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+    .styledeliING input[type="text"], input[type="password"] {
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        color: #fff;
+        font-size: 16px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .styledeliING input[type="submit"] {
+        border-style: none;
+        border-color: inherit;
+        border-width: medium;
+        outline: none;
+        background: #fff;
+        color: black;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .styledeliING input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: black;
+        }
+
+    .styledeliING a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+
+        .styledeliING a:hover {
+            color: #ffc107;
+        }

@@ -1,0 +1,293 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url("things/blanco.jpeg");
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    background-color: white;
+}
+
+/* Navbar container */
+.desplegable {
+    overflow: hidden;
+    background-color: #333;
+    font-family: sans-serif;
+    text-align: left;
+    height: 50px;
+}
+
+
+    /* Links inside the navbar */
+    .desplegable a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+/* The dropdown container */
+.menus {
+    float: left;
+    overflow: hidden;
+}
+
+    /* Dropdown button */
+    .menus .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+    /* Add a red background color to navbar links on hover */
+    .desplegable a:hover, .menus:hover .dropbtn {
+        background-color: red;
+    }
+
+/* Dropdown content (hidden by default) */
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .menu-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /* Add a grey background color to dropdown links on hover */
+        .menu-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.menu:hover .menu-content {
+    display: block;
+}
+
+.cuadro {
+    width: 339px;
+    height: 259px;
+    background: red;
+    color: #fff;
+    top: 82%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+.cuadrito {
+    width: 339px;
+    height: 190px;
+    background: blue;
+    color: #fff;
+    top: 79%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+.cuadros {
+    width: 339px;
+    height: 214px;
+    background: yellow;
+    color: black;
+    top: 79%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+.cuadross {
+    width: 339px;
+    height: 218px;
+    background: green;
+    color: #fff;
+    top: 79%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+.cuadrro {
+    width: 339px;
+    height: 196px;
+    background: #ff6500;
+    color: #fff;
+    top: 79%;
+    left: 15%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+
+.space {
+    width: 339px;
+    height: 37px;
+    background: #ff6500;
+    color: #fff;
+    top: 16%;
+    left: 32%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+
+
+.space2 {
+    width: 339px;
+    height: 223px;
+    background: green;
+    color: #fff;
+    top: 85%;
+    left: 69%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+.space1 {
+    width: 339px;
+    height: 55px;
+    background: yellow;
+    color: black;
+    top: 18%;
+    left: 68%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+.letters input[type="submit"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    background: #ee5202;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.letters input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: black;
+    }
+
+
+
+
+th {
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    position: relative;
+    background-color: gray;
+}
+
+table {
+    border: 6px solid black;
+    width: 863px;
+    position: relative;
+    margin-left: 150px;
+    top: 48px;
+    left: 337px;
+    height: 270px;
+}
+
+
+.buttons input[type="submit"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    .buttons input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: black;
+    }
+
+
+.letras {
+    overflow: hidden;
+    background-color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.fondo {
+    width: 1429px;
+    height: 538px;
+    background: gray;
+    color: #fff;
+    top: 54%;
+    left: 35%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+.menuarriba input[type="submit"] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    outline: none;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
